@@ -1,0 +1,28 @@
+
+#escenario {
+    height: 400px;
+    width: 400px;
+    background-color: blue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#escenario .cuadrado {
+    width: 100px;
+    height: 100px;
+    background-color: red;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#escenario .cuadrado:hover {
+    background-color: #00D1AE;
+    border-radius:360px;
+    width: 100px;
+    height: 100px;
+    transition-duration: 1s;
+    transition-timing-function:linear;
+    transition-delay: 100ms;
+}
